@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url("/divya/background-21717_1280.jpg");
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+  }
+
+  .pig-face {
+    width: 150px;
+    height: 150px;
+    background-color: #f8b7b7;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .ear {
+    width: 40px;
+    height: 40px;
+    background-color: #f8b7b7;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .ear.left {
+    top: 1px;
+    left: 10px;
+  }
+
+  .ear.right {
+    top: 1px;
+    right: 10px;
+  }
+
+  .eye {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(20, 18, 18);
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .eye.left {
+    top: 50px;
+    left: 40px;
+  }
+
+  .eye.right {
+    top: 50px;
+    right: 40px;
+  }
+
+  .nose {
+    width: 40px;
+    height: 27px;
+    background-color: palevioletred;
+    border-radius: 70%;
+    position: absolute;
+    top: 80px;
+    left: 57px;
+  }
+
+  .nostril {
+    width: 9px;
+    height: 14px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .nostril.left {
+    top: 5px;
+    left: 5px;
+  }
+
+  .nostril.right {
+    top: 5px;
+    right: 5px;
+  }
+ 
+</style>
+</head>
+<body>
+   
+  <div class="pig-face">
+    <div class="ear left"></div>
+    <div class="ear right"></div>
+    <div class="eye left"></div>
+    <div class="eye right"></div>
+    <div class="nose">
+      <div class="nostril left"></div>
+      <div class="nostril right"></div>
+    </div>
+  </div>
+</body>
+</html>
